@@ -1,5 +1,11 @@
 # MechaCar_Statistical_Analysis
 
+### Linear Regression to Predict MPG
+
+### Create Visualizations for the Trip Analysis
+
+### T-Tests on Suspension Coils
+
 ### Design a Study Comparing the MechaCar to the Competition
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
