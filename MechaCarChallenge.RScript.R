@@ -10,8 +10,9 @@ library(dplyr)
 MechaCar_mpg <- read.csv('MechaCar_mpg.csv',check.names = F,stringsAsFactors = F)
 head(MechaCar_mpg, 8)
 
+
+options(scipen = 999)
 #Perform linear regression using the lm() function.
-head(MechaCar_mpg, 10)
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)
 
 #Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
@@ -29,22 +30,24 @@ total_summary <- data.frame(Suspension_Coil %>% summarize(Mean=mean(PSI),
                                           Median=median(PSI),
                                           Variance=var(PSI),
                                           SD=sd(PSI), .groups = 'keep'))
-total_summary
 
 #Create a lot_summary dataframe for each manufacturing lot.                                                                
 lot_summary <- data.frame(Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),
                                                                          Median=median(PSI),
                                                                          Variance=var(PSI),
                                                                          SD=sd(PSI), .groups = 'keep'))
-lot_summary
 
-#box plot: PSI Whole lot
-plt1 <- ggplot(Suspension_Coil,aes(y=PSI)) #import dataset into ggplot2
-plt1 + geom_boxplot() #add boxplot
 
 #box plot: PSI each indicdiual Lot
-plt2 <- ggplot(Suspension_Coil,aes(x=Manufacturing_Lot,y=PSI)) #import dataset into ggplot2
-plt2 + geom_boxplot()
+plt2 <- ggplot(Suspension_Coil,aes(x=Manufacturing_Lot,y=PSI, fill = Manufacturing_Lot)) #import dataset into ggplot2
+plt2 +
+#add boxplot
+geom_boxplot( show.legend = FALSE, alpha = 0.5,
+             outlier.shape = NA) + #add boxplot
+#add N of data points
+geom_jitter(show.legend = FALSE, width = 0.25, shape = 21, color = 'black') +
+  labs( x = "Manifacturing Lot", y = NULL, title = 'DISTRIBUTION OF PSI VALUES')+
+  theme_classic()
 
 #Part 3: T-Tests on Suspension Coils
 
@@ -57,7 +60,7 @@ lot1 <- subset(Suspension_Coil, Manufacturing_Lot=="Lot1")
 lot2 <- subset(Suspension_Coil, Manufacturing_Lot=="Lot2")
 lot3 <- subset(Suspension_Coil, Manufacturing_Lot=="Lot3")
 
-t.test(lot1$PSI,mu=1500)
+a = t.test(lot1$PSI,mu=1500)
 t.test(lot2$PSI,mu=1500)
 t.test(lot3$PSI,mu=1500)
 
