@@ -2,9 +2,25 @@
 
 ### Linear Regression to Predict MPG
 
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/lm.png" width="700"/></kbd>
+
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/summary_lm.png" width="700"/></kbd>
+
+
 ### Create Visualizations for the Trip Analysis
 
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%202/PSI_summary_per_lot.png" width="700"/></kbd>
+
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%202/PSI_box_plot_per_lot.png" width="700"/></kbd>
+
 ### T-Tests on Suspension Coils
+
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_1.png" width="700"/></kbd>
+
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_2.png" width="700"/></kbd>
+
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_3.png" width="700"/></kbd>
+
 
 ### Design a Study Comparing the MechaCar to the Competition
 Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
