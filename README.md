@@ -29,8 +29,9 @@ The R-squared statistic provides a measure of how well the model is fitting the 
 
 
 ### Create Visualizations for the Trip Analysis
-Summary Statistics on Suspension Coils indicates that 
-2. the variance for Lot 3 is pretty high.
+Summary Statistics on Suspension Coils indicates that:
+1. The mean values PSI among all lots are close to one another.
+2. The variance for Lot 3 is pretty high.
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%202/PSI_summary_per_lot.png" width="700"/></kbd>
 
