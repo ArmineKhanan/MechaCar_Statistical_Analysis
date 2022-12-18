@@ -7,7 +7,7 @@
 #### Coefficients
 Based on the intercept and variable estemates the following formula can be derived as a prodictive model for car Miles Per Gallon indicator:
 
-<b> MPG = -103.363 + 6.267 × vehicle_length + 0.001 × vehicle_weight + 0.069 × spoiler_angle + 3.546 × ground_clearance - 3.411 × AWD </b>
+<b> MPG = -103.363 + 6.267 × length + 0.001 × weight + 0.069 × spoiler_angle + 3.546 × ground_clearance - 3.411 × AWD </b>
 
 The purpose of multivariate regression is to assess the influence of each independent variable on the dependent variable while simultaneously accounting for the influence of all the other independent variables. An added-variable plot (introduced below) is an effective way to show the correlation between an
 independent variable and a dependent variable conditional on other independent variables. 
