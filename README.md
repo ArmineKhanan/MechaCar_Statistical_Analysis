@@ -61,17 +61,17 @@ p-value = 0.o4, alpha = 0.05
 
 1. What metric or metrics are you going to test?
 
-We are going to test safety rate.
+We are going to test the safety rate.
 
 2. What is the null hypothesis or alternative hypothesis?
 
-<b>Null hypothesis:</b> Thereis no difference between MechaCar and compatitor vihicles' average safety rate.
+<b>Null hypothesis:</b> There is no difference between MechaCar and competitor vehicles' average safety rates.
 
-<b>Alternative hypothesis:</b> Average safety rate of MechaCar vehicles differs from what compatitor vihicles have.
+<b>Alternative hypothesis:</b> Average safety rate of MechaCar vehicles differs from what competitor vehicles have.
 
 3. What statistical test would you use to test the hypothesis?
 
-We going to use two-tailed two-sample t-test. We will optionally run a test for normality for each sample.
+We going to use a two-tailed two-sample t-test. We will optionally run a test for normality for each sample.
 
 4. What data is needed to run the statistical test?
 
