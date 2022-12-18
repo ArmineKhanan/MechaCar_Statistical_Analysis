@@ -1,5 +1,10 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+Within the assignment we are going to asist Jeremy to review the production data of AutosRUs’ newest prototype, the MechaCar. The insights may help the manufacturing team to manage the production troubles.
+
+## Results
+
 ### Linear Regression to Predict MPG
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/summary_lm.png" width="700"/></kbd>
