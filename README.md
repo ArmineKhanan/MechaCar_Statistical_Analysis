@@ -66,6 +66,7 @@ We are going to test safety rate.
 2. What is the null hypothesis or alternative hypothesis?
 
 <b>Null hypothesis:</b> Thereis no difference between MechaCar and compatitor vihicles' average safety rate.
+
 <b>Alternative hypothesis:</b> Average safety rate of MechaCar vehicles differs from what compatitor vihicles have.
 
 3. What statistical test would you use to test the hypothesis?
