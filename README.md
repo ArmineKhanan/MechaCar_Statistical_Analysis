@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
-Within the assignment we are going to asist Jeremy to review the production data of AutosRUs’ newest prototype, the MechaCar. The insights may help the manufacturing team to manage the production troubles.
+Within the assignment, we are going to assist Jeremy to review the production data of AutosRUs’ newest prototype, the MechaCar. The insights may help the manufacturing team to manage production troubles.
 
 ## Results
 
