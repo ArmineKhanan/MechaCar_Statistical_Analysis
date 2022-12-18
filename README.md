@@ -12,12 +12,12 @@
 
 Three stars (or asterisks) represent a highly significant p-value. Consequently, a small p-value for the intercept, vehicle length and ground_clearance indicates that we can reject the null hypothesis.
 
-### Adjusted R-squared
+#### Adjusted R-squared
 
 The R-squared statistic provides a measure of how well the model is fitting the actual data. The R2 we get is 0.6825. Or roughly 68% of the variance found in the response variable (mpg) can be explained by the predictor variables
 
 
-### Create Visualizations for the Trip Analysis
+#### Create Visualizations for the Trip Analysis
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%202/PSI_summary_per_lot.png" width="700"/></kbd>
 
