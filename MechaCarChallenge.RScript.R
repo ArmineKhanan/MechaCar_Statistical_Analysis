@@ -13,11 +13,15 @@ head(MechaCar_mpg, 8)
 
 options(scipen = 999)
 #Perform linear regression using the lm() function.
-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)
+model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg)
+
+#Create Added-Variable Plots
+install.packages("car")
+library(car)
+avPlots(model)
 
 #Using the summary() function, determine the p-value and the r-squared value for the linear regression model.
-summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_mpg))
-
+summary(model)
 
 #Part 2: Create Visualizations for the Trip Analysis
 
@@ -63,10 +67,3 @@ lot3 <- subset(Suspension_Coil, Manufacturing_Lot=="Lot3")
 a = t.test(lot1$PSI,mu=1500)
 t.test(lot2$PSI,mu=1500)
 t.test(lot3$PSI,mu=1500)
-
-
-
-
-
-
-
