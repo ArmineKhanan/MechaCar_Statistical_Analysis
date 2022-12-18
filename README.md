@@ -16,7 +16,7 @@ independent variable and a dependent variable conditional on other independent v
 
 #### Significance
 
-Three stars (or asterisks) represent a highly significant p-value. Consequently, a small p-value for the intercept, vehicle length and ground_clearance indicates that we can reject the null hypothesis.
+Three stars (or asterisks) represent a highly significant p-value. Consequently, a small p-value for the intercept, vehicle length and ground_clearance indicates that we can <b>reject the null hypothesis</b>, and confirm that model variables and particularly Vehicle Length and the Ground Clearance are able to predict the MPG of the car.
 
 #### Adjusted R-squared
 
