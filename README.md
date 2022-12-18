@@ -41,12 +41,15 @@ Summary Statistics on Suspension Coils indicates that:
 Lot 1: 
 p-value = 1, alpha = .05
 1 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject Null hypothesis rejected.</b>
+
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_1.png" width="700"/></kbd>
 
 0.60 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject Null hypothesis rejected.</b>
+
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_2.png" width="700"/></kbd>
 
 0.04 < 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> Null hypothesis is rejected.</b>
+
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_3.png" width="700"/></kbd>
 
 
