@@ -39,35 +39,39 @@ Summary Statistics on Suspension Coils indicates that:
 
 ### T-Tests on Suspension Coils
 Lot 1: 
-p-value = 1, alpha = .05
-1 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject Null hypothesis rejected.</b>
+p-value = 1, alpha = 0.05
+1 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject the null hypothesis.</b>
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_1.png" width="700"/></kbd>
 
-0.60 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject Null hypothesis rejected.</b>
+Lot 2: 
+p-value = 0.60, alpha = 0.05
+0.60 > 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> We failed to reject the null hypothesis.</b>
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_2.png" width="700"/></kbd>
 
+Lot 3: 
+p-value = 0.o4, alpha = 0.05
 0.04 < 0.05, which means the average falls within the 95% confidence interval of general population/general sample. <b> Null hypothesis is rejected.</b>
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%203/One_sample_t_test_lot_3.png" width="700"/></kbd>
 
 
-### Design a Study Comparing the MechaCar to the Competition
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+## Study Design: MechaCar vs Competition.
 
-Follow the instructions below to complete Part 4.
+1. What metric or metrics are you going to test?
 
-In your README, create a subheading ## Study Design: MechaCar vs Competition.
+We are going to test safety rate.
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+2. What is the null hypothesis or alternative hypothesis?
 
-In your description, address the following questions:
+<b>Null hypothesis:</b> Thereis no difference between MechaCar and compatitor vihicles' average safety rate.
+<b>Alternative hypothesis:</b> Average safety rate of MechaCar vehicles differs from what compatitor vihicles have.
 
-What metric or metrics are you going to test?
+3. What statistical test would you use to test the hypothesis?
 
-What is the null hypothesis or alternative hypothesis?
+We going to use two-tailed two-sample t-test. We will optionally run a test for normality for each sample.
 
-What statistical test would you use to test the hypothesis? And why?
+4. What data is needed to run the statistical test?
 
-What data is needed to run the statistical test?
+A random sample of n > 50 for MechaCar and their competitor vehicles.
