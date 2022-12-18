@@ -4,18 +4,7 @@
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/lm.png" width="700"/></kbd>
 
-Coefficients:
-mpg: 0 < .05, statistically significant, non-random amount of variance
-
-vehicle length: 0 < .05, statistically significant, non-random amount of variance
-
-vehicle weight: .08 > .05 not statistically significant, random amount of variance
-
-spoiler angle: .31 > .05 not statistically significant, random amount of variance
-
-ground clearance: 0 > .05 statistically significant, non-random amount of variance
-
-AWD: .19>=.05 not statistically significant, random amount of variance
+<kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/Addaed-Variable%20Plots.png" width="700"/></kbd>
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%201/summary_lm.png" width="700"/></kbd>
 
