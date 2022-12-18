@@ -24,6 +24,7 @@ The R-squared statistic provides a measure of how well the model is fitting the 
 
 
 ### Create Visualizations for the Trip Analysis
+Summary Statistics on Suspension Coils by lot 
 
 <kbd><img src="https://github.com/ArmineKhanan/MechaCar_Statistical_Analysis/blob/main/images/deliverable%202/PSI_summary_per_lot.png" width="700"/></kbd>
 
